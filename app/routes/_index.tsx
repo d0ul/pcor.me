@@ -74,16 +74,6 @@ export default function Index() {
             비단 그런 디자인 뿐 아닌, 앱 UI 구성도 즐겨 해요.
           </p>
         </div>
-        <div className="bg-green-900 text-white p-6 rounded-xl">
-          <img src="/Railroad.svg" className="h-8" alt="디자인"/>
-          <p className="mt-4">
-            철도 그 자체에 관심을 가지고 있어요.<br/>
-            기차를 통한 여행, 철도와 개발을 접목하는 일 등에 관심이 있답니다.
-          </p>
-        </div>
-        <div className="bg-gray-200 text-gray-700 text-2xl p-6 rounded-xl">
-          Coming soon...
-        </div>
       </div>
 
       <h2 className="mt-16 text-4xl font-bold">
@@ -113,7 +103,7 @@ export default function Index() {
         <div className="bg-pink-900 text-white p-6 rounded-xl">
           <img src="/화이트_국문.svg" className="h-12" alt="레일링크"/>
           <p className="mt-4">
-            Coming Soon<br/>
+            Coming Soon<br/><br/>
             철도 동호인을 위한 중고거래/소식 플랫폼이에요. 기존에 파편화되어 있던 각종 플랫폼을 하나로 묶어 가지고 있는 소장품 등을 쉽게 나눌 수 있도록 준비하고 있어요.<br/>
             사용 기술: FastAPI, Expo (React Native)
             <br/><br/>
@@ -122,6 +112,28 @@ export default function Index() {
                 방문하기 ↗
               </span>
             </a>
+          </p>
+        </div>
+        <div className="bg-[#00bca1] text-white p-6 rounded-xl">
+          <h3 className="text-4xl font-bold">🔒 비공개</h3>
+          <p className="mt-4">
+            (2023년)<br/><br/>
+            왁타버스 팬으로 활동 당시에 제작했던 검색 시스템이에요.<br/>
+            해당 팀에서 UI/UX를 담당했어요.<br/>
+            사용 기술: Figma
+            <br/><br/>
+            <small>※ 업데이트 이후 과거 제가 참여했던 사항은 포함되지 않습니다.</small>
+          </p>
+        </div>
+        <div className="bg-[#00bca1] text-white p-6 rounded-xl">
+          <h3 className="text-4xl font-bold">🔒 비공개</h3>
+          <p className="mt-4">
+            (2022년~2023년)<br/><br/>
+            왁타버스 팬으로 활동 당시에 제작했던 게임이에요.<br/>
+            해당 팀에서 UI/UX를 담당했어요.<br/>
+            사용 기술: Figma
+            <br/><br/>
+            <small>※ 해당 게임 프로젝트는 유기된 것으로 보입니다.</small>
           </p>
         </div>
       </div>
@@ -134,7 +146,6 @@ export default function Index() {
       <p className="mt-8 text-lg">
         <ul className="list-disc">
           <li>X (aka twitter) : @_lu0d</li>
-          <li>Bluesky : @pcor.me</li>
           <li>GitHub : @_d0ul</li>
           <li>Discord : lu0d</li>
           <li>YouTube : @철도</li>
